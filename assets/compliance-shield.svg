@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-labelledby="title desc">
+  <title id="title">Biometric data protection shield</title>
+  <desc id="desc">A shield with encrypted biometric nodes and Rwanda-hosted data concept.</desc>
+  <defs>
+    <radialGradient id="halo" cx="50%" cy="36%" r="64%">
+      <stop stop-color="#2fb8c5" stop-opacity=".34"/>
+      <stop offset=".55" stop-color="#1aa56d" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#f7f8f3" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shield" x1="170" y1="80" x2="730" y2="820" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101414"/>
+      <stop offset="1" stop-color="#30403a"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="900" fill="#f7f8f3"/>
+  <circle cx="450" cy="406" r="370" fill="url(#halo)"/>
+  <path fill="url(#shield)" d="M450 88 720 188v194c0 169-92 294-270 374-178-80-270-205-270-374V188L450 88Z"/>
+  <path fill="#1aa56d" d="M450 158 650 232v154c0 126-67 220-200 286-133-66-200-160-200-286V232l200-74Z"/>
+  <path fill="#f7f8f3" d="M450 282c-58 0-104 47-104 104v34h46v-34c0-32 26-58 58-58s58 26 58 58v34h46v-34c0-57-46-104-104-104Z"/>
+  <rect x="326" y="402" width="248" height="168" rx="18" fill="#101414"/>
+  <circle cx="450" cy="478" r="28" fill="#2fb8c5"/>
+  <path d="M450 500v36" stroke="#2fb8c5" stroke-width="18" stroke-linecap="round"/>
+  <g fill="none" stroke="#f7f8f3" stroke-opacity=".72" stroke-width="5">
+    <path d="M180 640c170-112 368-118 540-18"/>
+    <path d="M214 262c160 82 314 88 472 0"/>
+    <path d="M450 128v126M450 610v126"/>
+  </g>
+  <g fill="#d39a2c">
+    <circle cx="238" cy="634" r="13"/>
+    <circle cx="350" cy="586" r="13"/>
+    <circle cx="562" cy="586" r="13"/>
+    <circle cx="674" cy="630" r="13"/>
+    <circle cx="254" cy="280" r="13"/>
+    <circle cx="646" cy="280" r="13"/>
+  </g>
+</svg>

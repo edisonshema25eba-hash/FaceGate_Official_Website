@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 820" role="img" aria-labelledby="title desc">
+  <title id="title">FaceGate access control at an institution</title>
+  <desc id="desc">A school gate with camera, access lane, and biometric scan graphics.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#f7f8f3"/>
+      <stop offset="1" stop-color="#dce8df"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#2fb8c5" stop-opacity=".82"/>
+      <stop offset="1" stop-color="#1aa56d" stop-opacity=".72"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#101414" flood-opacity=".18"/>
+    </filter>
+  </defs>
+  <rect width="1100" height="820" fill="url(#sky)"/>
+  <path fill="#cfd7ce" d="M0 660h1100v160H0z"/>
+  <path fill="#e9ede6" d="M0 610h1100v66H0z"/>
+  <path fill="#1b2320" d="M150 262h800v34H150zM190 296h48v322h-48zm672 0h48v322h-48z"/>
+  <path fill="#25312d" d="M260 348h570v210H260z"/>
+  <path fill="#f7f8f3" d="M302 390h188v168H302zm250 0h236v168H552z"/>
+  <path fill="#d39a2c" d="M320 410h152v18H320zm0 38h152v18H320zm250-38h198v18H570zm0 38h198v18H570z"/>
+  <path fill="#101414" d="M420 600h260v40H420z"/>
+  <path fill="#394540" d="M466 560h168v80H466z"/>
+  <path fill="#101414" d="M712 250h44v156h-44z"/>
+  <path fill="#1aa56d" d="M672 400h128v66H672z" filter="url(#shadow)"/>
+  <path fill="#fff" d="M694 423h84v10h-84zm0 18h52v10h-52z"/>
+  <circle cx="734" cy="282" r="52" fill="#101414"/>
+  <circle cx="734" cy="282" r="30" fill="#2fb8c5"/>
+  <circle cx="734" cy="282" r="12" fill="#101414"/>
+  <path fill="none" stroke="#2fb8c5" stroke-width="7" stroke-linecap="round" stroke-dasharray="18 14" d="M174 700c150-86 316-120 498-92 108 17 187 11 254-19"/>
+  <g transform="translate(150 480)" filter="url(#shadow)">
+    <rect width="230" height="144" rx="8" fill="#101414"/>
+    <rect x="16" y="16" width="198" height="112" rx="5" fill="#17241f"/>
+    <circle cx="66" cy="72" r="38" fill="none" stroke="url(#glass)" stroke-width="5"/>
+    <path d="M55 69h22M50 89h32" stroke="#fff" stroke-opacity=".75" stroke-width="5" stroke-linecap="round"/>
+    <path d="M126 42h60M126 68h44M126 94h72" stroke="#7ee1b4" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <g fill="#101414">
+    <circle cx="520" cy="634" r="28"/>
+    <path d="M486 720c6-54 17-80 34-80h0c17 0 29 26 34 80z"/>
+    <circle cx="610" cy="640" r="23"/>
+    <path d="M580 720c5-46 15-69 30-69s25 23 30 69z"/>
+  </g>
+  <g fill="none" stroke="#1aa56d" stroke-width="5" stroke-linecap="round">
+    <path d="M468 602h38M534 602h38M468 678h38M534 678h38"/>
+    <path d="M458 592v28M582 592v28M458 660v28M582 660v28"/>
+  </g>
+</svg>

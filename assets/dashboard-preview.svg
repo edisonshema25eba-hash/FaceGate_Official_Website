@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 820" role="img" aria-labelledby="title desc">
+  <title id="title">FaceGate dashboard preview</title>
+  <desc id="desc">A web dashboard showing access logs, attendance, alerts, and camera status.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#111716"/>
+      <stop offset="1" stop-color="#24342f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#1aa56d"/>
+      <stop offset="1" stop-color="#2fb8c5"/>
+    </linearGradient>
+  </defs>
+  <rect width="1120" height="820" fill="url(#bg)"/>
+  <rect x="54" y="54" width="1012" height="712" rx="20" fill="#f7f8f3"/>
+  <rect x="54" y="54" width="230" height="712" rx="20" fill="#101414"/>
+  <circle cx="100" cy="104" r="18" fill="#1aa56d"/>
+  <rect x="132" y="90" width="96" height="14" rx="7" fill="#fff"/>
+  <rect x="132" y="114" width="62" height="10" rx="5" fill="#7ee1b4"/>
+  <g fill="#fff" opacity=".72">
+    <rect x="88" y="188" width="142" height="14" rx="7"/>
+    <rect x="88" y="238" width="104" height="14" rx="7"/>
+    <rect x="88" y="288" width="126" height="14" rx="7"/>
+    <rect x="88" y="338" width="88" height="14" rx="7"/>
+  </g>
+  <rect x="326" y="92" width="348" height="20" rx="10" fill="#101414"/>
+  <rect x="326" y="134" width="208" height="12" rx="6" fill="#69756f"/>
+  <rect x="326" y="190" width="210" height="146" rx="10" fill="#fff" stroke="#d7ddd5"/>
+  <rect x="568" y="190" width="210" height="146" rx="10" fill="#fff" stroke="#d7ddd5"/>
+  <rect x="810" y="190" width="210" height="146" rx="10" fill="#fff" stroke="#d7ddd5"/>
+  <text x="350" y="238" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#101414">742</text>
+  <text x="592" y="238" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#101414">98.7%</text>
+  <text x="834" y="238" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#101414">12</text>
+  <rect x="350" y="270" width="118" height="10" rx="5" fill="#1aa56d"/>
+  <rect x="592" y="270" width="136" height="10" rx="5" fill="#2fb8c5"/>
+  <rect x="834" y="270" width="82" height="10" rx="5" fill="#d39a2c"/>
+  <rect x="326" y="376" width="438" height="318" rx="10" fill="#fff" stroke="#d7ddd5"/>
+  <rect x="802" y="376" width="218" height="318" rx="10" fill="#101414"/>
+  <path d="M370 628V512m54 116V462m54 166V538m54 90V438m54 190V496m54 132V470" stroke="url(#accent)" stroke-width="24" stroke-linecap="round"/>
+  <path d="M350 636h332" stroke="#d7ddd5" stroke-width="2"/>
+  <g fill="#101414">
+    <rect x="350" y="414" width="164" height="16" rx="8"/>
+    <rect x="350" y="448" width="92" height="10" rx="5" opacity=".45"/>
+  </g>
+  <circle cx="912" cy="502" r="70" fill="none" stroke="#2fb8c5" stroke-width="10"/>
+  <path d="M878 504h68M888 540h48" stroke="#fff" stroke-opacity=".8" stroke-width="10" stroke-linecap="round"/>
+  <rect x="842" y="622" width="140" height="18" rx="9" fill="#7ee1b4"/>
+  <rect x="842" y="654" width="92" height="12" rx="6" fill="#fff" opacity=".58"/>
+  <g>
+    <rect x="326" y="718" width="694" height="20" rx="10" fill="#dce3dc"/>
+    <rect x="326" y="718" width="486" height="20" rx="10" fill="#1aa56d"/>
+  </g>
+</svg>
